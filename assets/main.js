@@ -33,7 +33,7 @@ window.onload = () =>{
     }
 }
 
-var swiper = new Swiper(".books-slider", {
+var swiper = new Swiper(".featured-slider", {
     loop:true,
     centeredSlides: true,
     autoplay: {
@@ -48,11 +48,14 @@ var swiper = new Swiper(".books-slider", {
       0: {
         slidesPerView: 1,
       },
-      768: {
+      450: {
         slidesPerView: 2,
       },
-      1024: {
+      768: {
         slidesPerView: 3,
+      },
+      1024: {
+        slidesPerView: 4,
       },
     },
   });
